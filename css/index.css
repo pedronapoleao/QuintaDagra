@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Maven+Pro:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    font-family: "Poppins", serif;
+}
+
+.img-logo{
+   
+    border-radius: 50%; /*colocar cantos redondos. Também dá em px*/
+    /* box-shadow: 15px 10px 15px black; */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+    } 
+
+header{
+    text-align: center; /*alinhar ao centro*/
+    background-color: rgb(122, 117, 117); /*fundo do header, tabela, rodapé*/
+    background: linear-gradient(to right, rgb(69, 69, 69) 0%, rgb(69, 69, 69) 50%, rgb(69, 69, 69) 100%);
+}
+
+body h1{
+    color: brown;
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+    font-size: 50px;
+    /* text-shadow: 7px 7px 5px black;  sombra texto */
+    margin-top: 40px;
+    text-align: center;
+}
+
+body h3{
+    color: rgb(75, 75, 75);
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.redessociais{ /*chamamos a class criada para não ficar com mesma formatação do header*/
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.cavalo-andar{
+    text-align: center;
+}
+
+head a{ /*desaparecer sublinhado dos links*/
+    text-decoration: none;
+}
+
+.nav-link{
+    margin-left: 40px;
+    color: white;
+}
+
+.carousel{
+   /* margin-top: 10px;*/
+    background-color: #000;
+    opacity: 0.75;
+    font-family: "Poppins", serif;
+    color: rgb(75, 75, 75);
+    
+}
+
+#A-Quinta-DAgra{
+    margin-top: 10px;
+}
+
+.apresentacao h3{
+    text-align: justify;
+    max-width: 80%;
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(75, 75, 75);
+    font-family: "Poppins", serif;
+}
+
+#accordionPanelsStayOpenExample{
+    width: 60%;
+    margin-left: 40px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 27.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.img-carrosel{
+    opacity: 0.4;
+    max-height: 900px;
+}
+
+.carousel-pedro {
+    margin-top: -140px;
+    z-index: -9999;
+}
+
+.form-floating{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card{
+    border-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card-group .card{
+    height: 800px;
+}
+
+.sec-quintadagra{
+    font-family: "Poppins", serif;
+}
+
+.video-container iframe{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 760px; 
+    height: 515px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.mapa{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 90%; 
+    height: 515px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* #nome,
+#mail,
+#telefone
+{
+    border-radius: 5px;
+    width: 80%;
+} */
+
+#mensagem-texto{
+    border-radius: 5px;
+    height: 150px;
+    width: 80%;
+}
+
+.form-floating{
+    text-align: left;
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+footer{
+    /* height: 100px; */
+    background-color: #808080;
+    color: white;
+    }
+
+footer a{
+    color: white;
+}
+
+.topo-branco{
+    width: 50px;
+    bottom: 100px;
+    margin-top: -100px;
+}
+
+
+footer{
+    margin-bottom: -300px;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+.botao-topo img{
+    opacity: 0;
+    animation: fade-out 0s;
+}
+
+.botao-topo-mostrar img{
+    animation: fade-in 2s ease-in forwards;
+}
+
+.botao-topo-escondido img{
+    animation: fade-out 1s ease-out forwards;
+}
