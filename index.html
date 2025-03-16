@@ -56,6 +56,9 @@
                       <a class="nav-link" href="#os nossos animais">Os nossos animais</a>
                     </li>
                     <li class="nav-item">
+                      <a class="nav-link" href="#novidades">Novidades</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link" href="#Contactos">Contactos</a> 
                     </li>
             </nav>
@@ -143,6 +146,7 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
           </h3>
       </div>
+      <br><br><br><br><br>
 
 
       <!-------------------------------- Videos ------------------->
@@ -154,11 +158,12 @@
             allowfullscreen>
         </iframe>
       </div>
+      <br><br><br><br><br>
 
         <!---------------------SERVICOS--------------->
 
         <div id="servicos"></div>
-
+        
         <h1 style="margin-bottom: 100px;"> 
           Serviços 
         </h1>
@@ -240,7 +245,7 @@
               </div>
             </div>
           </div>
-        </div>
+          <br><br><br><br><br>
 
           <!------Os nossos animais---------->
 
@@ -287,9 +292,54 @@
             </div>
           </div>
         </div>
+        <br><br><br><br><br>
 
+        <!--novidades-->
+        <div class="full-width-background">
+          <div class="content-container">
+        <section class="news-section">
+          <div id="novidades"></div>
+        <h1 style="margin-bottom: 100px;"> 
+          Novidades 
+        </h1>
 
-
+          
+          <div class="news-grid">
+              <!-- Notícia 1 -->
+              <article class="news-card">
+                  <img src="./img/dia_dos_namorados.jpg" alt="Título da Notícia" class="news-image">
+                  <div class="news-content">
+                      <h3 class="news-title">Feliz dia dos Namorados</h3>
+                      <p class="news-excerpt">Na nossa Quinta, o amor também anda aos pares</p>
+                  </div>
+              </article>
+  
+              <!-- Notícia 2 -->
+              <article class="news-card">
+                  <img src="./img/novidades_cavalo_madeira.jpg" alt="Título da Notícia" class="news-image">
+                  <div class="news-content">
+                      
+                      <h3 class="news-title">Novidades fantásticas a caminho!</h3>
+                      <p class="news-excerpt">Muito em breve, a nossa quinta contará com um Cavalo de Tróia, uma ferramenta especial para ajudar as crianças que, inicialmente, sentem receio de fazer as terapias em cima de um cavalo verdadeiro. </p>
+                      
+                  </div>
+              </article>
+  
+              <!-- Notícia 3 -->
+              <article class="news-card">
+                  <img src="./img/Dia da mulher.jpg" alt="Título da Notícia" class="news-image">
+                  <div class="news-content">
+                      
+                      <h3 class="news-title">Feliz dia da Mulher</h3>
+                      <p class="news-excerpt">Ser mulher é ser guerreira, sonhadora e capaz de transformar o impossível em realidade.</p>
+                      
+                  </div>
+              </article>
+          </div>
+      </section>
+    </div>
+  </div>
+      <br><br><br><br><br>
 
          <!--CONTACTOS-->
 
@@ -348,7 +398,8 @@
         </div>
       </div>
 
-
+      
+   
 
       <footer>
 
@@ -366,6 +417,7 @@
             <a href="#A-Quinta-DAgra">A Quinta D`Agra</a><br>
             <a href="#servicos">Serviços</a><br>
             <a href="#os nossos animais">Os nossos animais</a><br>
+            <a href="#novidades">Novidades</a><br>
             <a href="#Contactos">Contactos</a><br>
           </div>
 
@@ -434,7 +486,7 @@
       if (nav) {  // Verifica se o elemento existe
       window.addEventListener('scroll', () => {
       if (window.pageYOffset > 600) {
-      nav.style.backgroundColor = 'grey';
+      nav.style.backgroundColor = '#b0b0b0';
       } else {
       nav.style.background = 'transparent';
       }
