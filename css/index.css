@@ -368,3 +368,20 @@ footer{
     margin: 0 auto;
     padding: 0 20px;
 }
+
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+    .carousel-caption h4 {
+      font-size: 1rem;
+    }
+    
+    .img-logo {
+      max-width: 120px;
+    }
+    
+    .navbar {
+      background: #b0b0b0 !important;
+    }
+  }
+  
