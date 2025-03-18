@@ -38,7 +38,7 @@ header{
 }
 
 body h1{
-    color: brown;
+    color: #a44848;
     font-family: "Poppins", serif;
     font-optical-sizing: auto;
     font-weight: 900px;
@@ -76,6 +76,7 @@ head a{ /*desaparecer sublinhado dos links*/
 .nav-link{
     margin-left: 40px;
     color: white;
+    
 }
 
 .carousel{
@@ -179,14 +180,6 @@ head a{ /*desaparecer sublinhado dos links*/
     max-width: 100%;
 }
 
-/* #nome,
-#mail,
-#telefone
-{
-    border-radius: 5px;
-    width: 80%;
-} */
-
 #mensagem-texto{
     border-radius: 5px;
     height: 150px;
@@ -201,7 +194,7 @@ head a{ /*desaparecer sublinhado dos links*/
 
 footer{
     /* height: 100px; */
-    background-color: #b0b0b0;
+    background-color: #a44848;
     color: white;
     }
 
@@ -262,13 +255,6 @@ footer{
     }
     
 }
-
-/* @media screen and (min-width:599px){
-    .botao-topo{
-        margin-top: -250px;
-    }
-    
-} */ 
 
 .img-logo-rodape{
     border-radius: 50%; 
@@ -381,7 +367,59 @@ footer{
     }
     
     .navbar {
-      background: #b0b0b0 !important;
+      background: #a44848 !important;
     }
   }
   
+  @media (max-width: 767px) {
+    /* Centraliza itens do menu */
+    .navbar-nav {
+      width: 100%;
+    }
+    
+    .nav-link {
+      margin-left: 0 !important;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    /* Centraliza dropdown */
+    .dropdown-menu {
+      text-align: center;
+      background: rgba(164, 72, 72, 0.9);
+    }
+  
+    /* Ajusta posição do toggle */
+    .navbar-toggler {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  /* Mantenha o logo visível em desktop */
+  @media (min-width: 768px) {
+    .nav-link {
+      margin-left: 40px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .img-logo-rodape {
+        margin-left: 0 !important;
+        display: block;
+        margin: 0 auto 20px auto; /* Centraliza horizontalmente */
+    }
+    
+    /* Ajuste adicional para garantir alinhamento total */
+    .col-md-3 {
+        width: 100%;
+        text-align: center !important;
+        margin-top: 30px !important;
+    }
+    
+    /* Ajuste das redes sociais */
+    .redessociais {
+        margin: 0 5px; /* Espaçamento mais equilibrado */
+    }
+}
+
